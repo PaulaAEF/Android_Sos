@@ -42,7 +42,6 @@ public class Registro_PDS extends AppCompatActivity {
             Intent pasaropds = new Intent(this, opciones_PDS.class);
 
        //pasaropds.putExtra("Info",nombre.getText().toString());
-       // pasaropds.putExtra("Info","paula");
 
 
         startActivity(pasaropds);

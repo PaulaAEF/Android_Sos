@@ -34,7 +34,9 @@ import static android.Manifest.permission.WRITE_EXTERNAL_STORAGE;
 
 public class perfilPDS extends AppCompatActivity {
 
-    TextView nombrePP;
+
+
+    Bundle dato;
 
     private static String APP_DIRECTORY = "MyPictureApp/";
     private static String MEDIA_DIRECTORY = APP_DIRECTORY + "PictureApp";
@@ -59,10 +61,19 @@ public class perfilPDS extends AppCompatActivity {
 
         mSetImage = (ImageView) findViewById(R.id.set_picture);
         mOptionButton = (Button) findViewById(R.id.show_options_button);
-        nombrePP = (TextView)findViewById(R.id.nombrePP);
+
+        /*
+
+        dato = getIntent().getExtras();
+
+        String datoOp= dato.getString("Info");
+
+        TextView nomPP = (TextView)findViewById(R.id.nombrePP);
+
+        nomPP.setText(datoOp);
 
 
-/*
+
         Bundle bundle = getIntent().getExtras();
         String dato = bundle.getString("Info").toString();
 
