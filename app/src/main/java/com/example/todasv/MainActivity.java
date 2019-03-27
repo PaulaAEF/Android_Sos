@@ -10,11 +10,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
 
 
 public class MainActivity extends AppCompatActivity {
 Button iniciar ;
 EditText cc , pass;
+private RequestQueue queue ;
 
 AlertDialog.Builder builder;
     @Override
