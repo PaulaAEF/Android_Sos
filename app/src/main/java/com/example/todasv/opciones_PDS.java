@@ -19,7 +19,7 @@ public class opciones_PDS extends AppCompatActivity {
     }
 
     public void pasarListSol(View view){
-        Intent pasarls = new Intent(this, MainActivity.class);
+        Intent pasarls = new Intent(this, lista_solicitudes.class);
         startActivity(pasarls);
     }
 
